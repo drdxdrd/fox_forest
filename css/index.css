@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
+    color: #222222;
 }
 
 .clearfix::after{
@@ -15,7 +16,7 @@ div{box-sizing: border-box;}
 
 header{
     background: url(../img/head.png) no-repeat center top /cover;
-padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .container{
@@ -24,13 +25,17 @@ padding-bottom: 100px;
 }
 
 .logo{
-margin-top: 41px;
-float: left;
+    margin-top: 41px;
+    float: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 nav{
-    float: right;
-    margin-top: 50px;
+    /* float: right; */
+    margin 50px 20px 10px 10px;
+    
 }
 
 .menu{
@@ -55,19 +60,20 @@ font-size: 14;
     font-size: 40px;
     color: white;
     text-transform: uppercase;
-    text-align: center;
-    margin-top: 100px;
+    text-align: left;
+    margin-top: 50px;
 }
 
 .title_second{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 90px;
     font-size: 70px;
     color: white;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
-.button{
+/* .button{
     background: #fed136;
     color: #202020;
     border-radius: 3px;
@@ -80,5 +86,35 @@ font-size: 14;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 10px;
+} */
+
+.menu_container{
+    background: grey;
+    width: 100%;
+    height: 50px;
+    padding: 20px 20px;
+    margin: 0px auto;
 }
 
+article{
+
+}
+
+article h2{
+    margin: 0;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+article data_mark{
+    font-size: 28px;
+    text-align: left;
+    /* font-weight: initial; */
+}
+
+article p{
+    font-size: 32px;
+}
