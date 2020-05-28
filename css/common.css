@@ -91,3 +91,9 @@ nav{
    margin:0; 
    background: grey;
 }
+
+footer{
+position: fixed; 
+bottom: 0;
+right: 0;
+}

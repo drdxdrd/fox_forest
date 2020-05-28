@@ -1,0 +1,21 @@
+
+
+article{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}
+
+article h2{
+    margin: 0px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+article p{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
