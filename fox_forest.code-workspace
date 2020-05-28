@@ -1,7 +1,22 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
-}
+    "folders": [
+        {
+        "path": "."
+        }
+    ],
+    "settings": {
+        "editor.rulers": [
+        80
+        ],
+        
+        "telemetry.enableCrashReporter": false,
+        "telemetry.enableTelemetry": false,
+        "editor.minimap.enabled": false,
+        "files.eol": "\n",
+        "files.exclude": {
+        "**/node_modules": true,
+        "**/public": true,
+        "**/.git": true,
+        }
+    }
+  }
